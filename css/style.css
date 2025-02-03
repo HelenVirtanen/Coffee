@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald';
+}
+/*********MENU COFFEE HOUSE**********/
+.header{
+    width: 100%;
+    height: 110px;
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.menu__logo{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    white-space: nowrap;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration:none;
+}
+.menu__ul{
+    display:flex;
+    list-style: none;
+}
+.menu__li{
+    margin: 0 46px;
+}
+.menu__li:hover{
+    border: 3px solid #817070;
+    border-radius: 8px;
+    padding: 0px 10px;
+    margin: -3px 33px 
+}
+.menu__link{
+    text-decoration:none;
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+}
+/*********TAKE YOUR TIME**********/
+.main__block1{
+    background: url(https://images.unsplash.com/photo-1494415859740-21e878dd929d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.main__block1__header{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 89px; 
+    color: #FFFFFF;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.main__block1__stripe{
+    width: 80px;
+    height: 10px;
+    background: #817070;
+    margin-top: 37px;
+}
+/*********STORY**********/
+.main__block2__header{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin:60px;
+}
+.main__block2__content{
+    display:flex;
+    align-items:center;
+    margin-left:80px;
+    margin-bottom:59px;
+}
+.main__block2__content__img{
+    width: 40%;
+    height: 40%;
+    min-width:365px;
+}
+.main__block2__content_text{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-left: 40px;
+    inline-size: 41%;
+    min-width:597px;
+}
+/*********BLOG**********/
+.main__block3{
+    background: #EFEFEF;
+    padding-bottom:60px;
+}
+.main__block3__header{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding:60px;
+}
+.main__block3__blogs__container{
+    display:flex;
+    justify-content:center;
+}
+.blog{
+    width: 25%;
+    min-width:365px;
+    background: #FFFFFF;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+}
+.blog:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.blog__img{
+    margin:24px 0;
+}
+.blog__text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom:20px;
+}
+.margin{
+    margin:0 70px;
+}
+/*********SUBSCRIBE**********/
+.main__block4{
+    height: 337px;
+    background: #817070;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.block4__text{
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.block4__input{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 300px;
+    height: 55px;
+    background: #817070;
+    border: 3px solid #FFFFFF;
+    font-weight: 300;
+    font-size: 20px;  
+    color: #FFFFFF;
+    margin:28px;
+}
+.block4__button{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 129px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #817070;
+}
+.block4__button:hover{
+    transform: scale(1.05);
+}
+/*********COPYRIGHT**********/
+.footer{
+    height: 72px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.copyright{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #000000;
+    white-space: nowrap;
+}
